@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@100&display=swap');
+
+body { 
+    background-color: rgb(241, 225, 203);
+}
+
+.heading { 
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+    .playground-heading {
+        color:darkgreen;
+}
+
+.main {
+    border: 2px solid grey; 
+    width: 75%; 
+    margin: 0 auto;
+}
+
+.main div {
+    width: 200px; 
+    height: 200px; 
+    border: 1px solid blue; 
+    border-radius: 50%; 
+    margin: 1rem auto
+} 
+
+#green {
+    border-color: green;
+} 
+
+#red {
+    border-color: red;
+} 
+
+.footer {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
